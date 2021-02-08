@@ -30,7 +30,7 @@ const displaySongs = songs => {
             <p class="author lead">${song.artist.name}</span></p>
             <h3>Preview</h3>
             <audio controls>
-                <source src="${song.preview}" type="audio/ogg">
+                <source src="${song.preview}" type="audio/mp3">
             </audio>
         </div>
         <div class="col-md-3 text-md-right text-center">
